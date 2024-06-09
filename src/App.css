@@ -1,0 +1,38 @@
+
+#root {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  font-weight:400; 
+  font-size:30px;
+  margin:10px;
+  margin-bottom:20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.item{
+  text-align:left;
+}
+.todo-container{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.a-row{
+  margin:10px;
+}
+button{
+  width:80px;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
