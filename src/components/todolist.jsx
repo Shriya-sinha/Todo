@@ -1,16 +1,16 @@
 import Todoitem from "./todoitem";
 import PropTypes from "prop-types";
-const Todolist = ({todoItems}) => {
-
+const Todolist = ({Todoitems,onDeleteItem}) => {
   return (
     <>
-      {todoItems.map((item) => (
-        <Todoitem key={item} todoName={item.name} todoDate={item.duedate} />
+      {Todoitems.map((item) => (
+        <Todoitem key={item} todoName={item.name} todoDate={item.duedate} onDeleteItem={onDeleteItem}/>
       ))}
     </>
   );
 }
 Todolist.propTypes = {
-  todoItems:PropTypes.object,
+  Todoitems:PropTypes.object,
+  onDeleteItem:PropTypes.object,
 };
 export default Todolist
