@@ -1,18 +1,10 @@
 
 #root {
   font-family: "Montserrat", sans-serif;
-  max-width: 1280px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-h1{
-  font-weight:400; 
-  font-size:30px;
-  margin:10px;
-  margin-bottom:20px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .item{
@@ -22,6 +14,7 @@ h1{
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  width: 1000px; !important
 }
 .a-row{
   margin:10px;
